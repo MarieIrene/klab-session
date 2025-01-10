@@ -31,19 +31,31 @@ section {
     height: 6%;
     display: flex;
     flex-direction: row;
+    
 
 
 }
 
-.navigation button {
+.navigation a {
     background-color: black;
     border: none;
     height: 2rem;
     width: 5rem;
     border-radius: 50px;
+    padding: 5px;
+    font-size: large;
+    display: inline-block;
+    line-height: 3rem;
+    text-decoration: none;
+    text-align: center;
+    margin: 5px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    line-height: 2rem;
+    justify-content: center;
 }
 
-.navigation button:hover {
+.navigation a:hover {
     background-color: red;
 }
 
