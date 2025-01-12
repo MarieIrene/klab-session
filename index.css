@@ -99,9 +99,29 @@ section {
 }
 
 .profile {
-    width: 50%;
+    width: 100%;
     font-size: larger;
+    display: flex;
+   
 
+}
+.pc{
+    display: flex;
+    padding: 10px;
+    img{
+        width: 500px;
+    }
+    h2 b{
+        display: inline-block
+    }
+    margin-left: 5%;
+    margin-top: 10%;
+    height: 200px;
+}
+.pro{
+    width:600px;
+    display: flex;
+    font-size: 20px;
 }
 
 .blog {
@@ -222,3 +242,44 @@ h2 {
     display: flex;
     justify-content: space-evenly;
 }
+
+@media screen and (max-width: 600px) {
+    body{
+        padding: 0px;   }
+    .para{
+        font-size: small;
+        padding: 0px;
+        margin: 0;
+        width: 300px;
+    }
+    .picture{
+        position: absolute;
+        img{
+            width: 100px;
+            top: 30px;
+            height: auto;
+            object-fit: cover;
+        }
+    }
+    #ppg{
+        width: 400px;
+    }
+    .profile{
+        font-size: small;
+        width: auto;
+    }
+    .hobbies{
+        display: flex;
+        flex-direction: column;
+        font-size: small;
+        p{
+            margin: 5px;
+        }
+       
+        }
+       
+
+    
+    
+} 
+    
